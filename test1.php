@@ -7,6 +7,9 @@
 </head>
 
 <body>
-Hello, world!
+<p>Hello, world!</p>
+<?php
+echo "初めてのgithub";
+?>
 </body>
 </html>
