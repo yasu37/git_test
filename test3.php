@@ -13,11 +13,12 @@ $headers = "from@example.com";
 <html lang="ja">
 
 <head>
-  <meta charset="utf-8" />
+<meta charset="utf-8" />
+<title>メール送信処理</title>
 </head>
 <body>
 <?php
-if(mb_send_mail($to, $subject, $message, $headers)) {
+if (mb_send_mail($to, $subject, $message, $headers)) {
 	echo "メール送信成功です";
 } else {
 	echo "メール送信失敗です";
